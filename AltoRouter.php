@@ -62,7 +62,6 @@ class AltoRouter {
 			return false;
 		}
 
-		$route = $this->basePath . $route;
 		$this->routes[] = array($method, $route, $target, $name);
 		$this->namedRoutes[$name] = $route;
 
